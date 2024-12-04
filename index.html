@@ -56,6 +56,12 @@
 }
 .day-forecast-alert > h1 {
 	text-decoration: none;
+	color: black;
+    margin: 0.2rem;
+    font-size: 1.5rem;
+}
+.day-forecast-alert > #alert {
+	text-decoration: none;
 	color: red;
     margin: 0.2rem;
     font-size: 1.5rem;
@@ -71,7 +77,12 @@
 			<article class="forecast">
 				<h1>&ensp;<u>ACTUALITES</h1></u>
                 <article class="day-forecast-alert">
-                    <h1>Horaire</h1>
+                    <div align="left">
+                        <h1>Horaire</h1>
+                    </div>
+                    <div align="right">
+                        <h1 id="alert">ALERTE INFO</h1>
+                    </div>
                     <h2>Titre de l'article</h2>
                     <p>Corps de l'article</p>
                 </article>
