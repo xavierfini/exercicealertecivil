@@ -30,6 +30,11 @@
     background: right/contain content-box border-box no-repeat url('/media/examples/rain.svg') white;
 }
 
+.day-forecast-alert {
+    background: right/contain content-box border-box no-repeat url('/media/examples/rain.svg') white;
+    border: 0.5rem solid #ff0000;
+}
+
 .day-forecast > a {
 	text-decoration: none;
 	color: blue;
@@ -46,7 +51,11 @@
 		<div align="left">
 			<article class="forecast">
 				<h1>&ensp;<u>ACTUALITES</h1></u>
-			<article class="day-forecast">
+                <article class="day-forecast-alert">
+                    <h1>Test</h1>
+                    <p>Corps de l'article</p>
+                </article>
+                <article class="day-forecast">
 				<h1>Test</h1>
                 <p>Corps de l'article</p>
 			</article>
