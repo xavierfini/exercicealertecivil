@@ -31,9 +31,15 @@
     border: 0.5rem solid #fff;
 }
 
-.day-forecast > a {
+.day-forecast > h2 {
 	text-decoration: none;
-	color: blue;
+	color: black;
+    margin: 0.2rem;
+    font-size: 1.5rem;
+}
+.day-forecast > h1 {
+	text-decoration: none;
+	color: black;
     margin: 0.2rem;
     font-size: 1.5rem;
 }
@@ -60,7 +66,7 @@
     margin: 0.2rem;
     font-size: 1.5rem;
 }
-.day-forecast-alert > #alert {
+#alert {
 	text-decoration: none;
 	color: red;
     margin: 0.2rem;
@@ -72,6 +78,10 @@
     margin: 0.2rem;
     font-size: 1.3rem;
 }
+#bloc-alert
+{
+float:right;
+}
 		</style>
 		<div align="left">
 			<article class="forecast">
@@ -80,7 +90,7 @@
                     <div align="left">
                         <h1>Horaire</h1>
                     </div>
-                    <div align="right">
+                    <div id="bloc-alert">
                         <h1 id="alert">ALERTE INFO</h1>
                     </div>
                     <h2>Titre de l'article</h2>
