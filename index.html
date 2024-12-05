@@ -87,11 +87,51 @@
 float:right;
 }
 
+.day-forecast-fictif {
+    background: right/contain content-box border-box no-repeat url('/media/examples/rain.svg') white;
+    border: 0.5rem solid #ff0000;
+}
+.day-forecast-fictif > h2 {
+	text-decoration: none;
+	color: black;
+    margin: 0.2rem;
+    font-size: 3rem;
+}
+.day-forecast-fictif > h1 {
+	text-decoration: none;
+	color: red;
+    margin: 0.2rem;
+    font-size: 3rem;
+}
+#fictif {
+	text-decoration: none;
+	color: red;
+    margin: 0.2rem;
+    font-size: 2.5rem;
+    font-family: "Archivo Narrow", "Gill Sans", sans-serif;
+}
+.day-forecast-fictif > p {
+	text-decoration: none;
+	color: black;
+    margin: 0.2rem;
+    font-size: 2rem;
+}
+#bloc-fictif
+{
+float:right;
+}
 		</style>
 		<div align="left">
 			<article class="forecast">
-				<h1>EN DIRECT: EXERCICE ALERTE CIVILE</h1>
-                
+				<h1>EN DIRECT: </h1>
+                <article class="day-forecast-fictif">
+                    <div id="bloc-fictif">
+                        <h1 id="fictif">ALERTE INFO </h1>
+                    </div>
+                    <h1>Horaire</h1>
+                    <h2>Titre de l'article</h2>
+                    <p>Corps de l'article</p>
+                </article>
 		    </article>
         </div>
 	</body>
